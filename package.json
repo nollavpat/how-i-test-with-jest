@@ -1,0 +1,23 @@
+{
+  "name": "how-i-test-with-jest",
+  "version": "1.0.0",
+  "description": "I will be doing a brown bag session at the office about jest js hehe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nollavpat/how-i-test-with-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nollavpat/how-i-test-with-jest/issues"
+  },
+  "homepage": "https://github.com/nollavpat/how-i-test-with-jest#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
