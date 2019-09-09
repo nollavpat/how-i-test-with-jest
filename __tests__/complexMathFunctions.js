@@ -1,10 +1,10 @@
 const complexMathFunctions = require('../modules/complexMathFunctions');
 
-xdescribe('complexMathFunctions', () => {
+describe('complexMathFunctions', () => {
   describe('#derive()', () => {
     complexMathFunctions.derive = jest.fn();
 
-    xtest('mock clear', () => {
+    test('mock clear', () => {
       console.log('************start clear*************');
       complexMathFunctions.derive.mockReturnValue('mocked');
       complexMathFunctions.derive('e dx');
@@ -15,7 +15,7 @@ xdescribe('complexMathFunctions', () => {
       console.log('************end clear*************');
     });
 
-    xtest('mock reset', () => {
+    test('mock reset', () => {
       console.log('************start reset*************');
       complexMathFunctions.derive.mockReturnValue('mocked');
 
